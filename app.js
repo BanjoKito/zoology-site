@@ -6,7 +6,6 @@ function displayAnimalCards(animals) {
         container.innerHTML += animals[i].getCard();
     }
 }
-// this is general dispaly card fucntion
 document.addEventListener('DOMContentLoaded', function() {
     displayAnimalCards(animalDatabase);
 });
