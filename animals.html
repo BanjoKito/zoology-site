@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Animals-Zoology Explorer</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="animals.html">Animals</a></li>
+                <li><a href="classifications.html">Classification</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="page-header">
+            <h1>Animal Database</h1>
+            <p>Explore the diversity of the animal kingdom, from tiny insects to massive mammals. Learn about their
+                unique adaptations, behaviors, and habitats.</p>
+        </section>
+
+        <section class="controls">
+            <h2>Explore Animals</h2>
+
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for an animal...">
+                <button id="searchBtn">Search</button>
+            </div>
+
+            <div class="filter-container">
+                <label for="classFilter">Filter by Class:</label>
+                <select id="classFilter">
+                    <option value="all">All Classes</option>
+                    <option value="Mammalia">Mammals</option>
+                    <option value="Aves">Birds</option>
+                    <option value="Reptilia">Reptiles</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="cards-section">
+            <h2>Featured Animals</h2>
+            <div id="animalCards" class="cards-container">
+            </div>
+        </section>
+        <div id="animalModal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modalBody">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Zoology Explorer; Built with HTML, CSS & JavaScript</p>
+    </footer>
+</body>
+
+</html>
