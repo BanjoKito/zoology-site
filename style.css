@@ -15,7 +15,7 @@ header {
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
+/* Nav thinyly*/
 nav ul {
     list-style: none;
     display: flex;
@@ -44,7 +44,7 @@ main {
 section {
     margin-bottom: 3rem;
 }
-
+/* text styling */
 h1 {
     font-size: 2.5rem;
     color: #2c3e50;
@@ -83,13 +83,12 @@ h3 {
     break-inside: avoid;
 }
 
-/* Mobile: 1 column */
+/* Responsive adjustments */
 @media (max-width: 768px) {
     .p-container {
         column-count: 1;
     }
 }
-
 .p-container p:last-child {
     margin-bottom: 0;
 }
