@@ -232,7 +232,7 @@ animalDatabase.push(new Animal(
     "Grasslands and savannas of Africa",
     "Carnivore - primarily small to medium-sized ungulates",
     "The cheetah is the fastest land animal, capable of reaching speeds up to 70 mph. Unlike other big cats, cheetahs cannot roar but can purr. They have distinctive black tear marks running from their eyes to their mouths.",
-    "https://images.unsplash.com/photo-1549480017-d76466a4b7e8?w=400"
+    "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hlZXRhaHxlbnwwfHwwfHx8MA%3D%3D"
 ));
 
 animalDatabase.push(new Animal(
@@ -296,7 +296,7 @@ animalDatabase.push(new Animal(
     "Arid and semi-arid regions of Australia",
     "Herbivore - grasses and shrubs",
     "The red kangaroo is the largest marsupial in the world. Males can reach speeds of 35 mph and leap up to 30 feet in a single bound. Females have a permanent pouch where their young (joeys) develop.",
-    "https://images.unsplash.com/photo-1582192730841-37843b2d3d3d?w=400"
+    "https://images.unsplash.com/photo-1763580996364-2348be80e33f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlZCUyMGthbmdhcm9vfGVufDB8fDB8fHww"
 ));
 
 animalDatabase.push(new Animal(
@@ -312,7 +312,7 @@ animalDatabase.push(new Animal(
     "Worldwide except Antarctica",
     "Carnivore - primarily other birds",
     "The peregrine falcon is the fastest animal on Earth, reaching speeds over 240 mph during hunting dives called stoops. They have been recorded on every continent except Antarctica and have adapted to urban environments.",
-    "https://images.unsplash.com/photo-1611409181551-0ca8f6f31b98?w=400"
+    "https://images.unsplash.com/photo-1633001111711-838ae665ca8e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVyZWdyaW5lJTIwZmFsY29ufGVufDB8fDB8fHww"
 ));
 
 animalDatabase.push(new Animal(
@@ -328,7 +328,7 @@ animalDatabase.push(new Animal(
     "Forests of eastern North America",
     "Omnivore - nuts, seeds, insects, small vertebrates",
     "Blue jays are intelligent and adaptable birds known for their striking blue plumage and loud calls. They are excellent mimics and can imitate the calls of hawks. They play an important role in forest regeneration by caching acorns.",
-    "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=400"
+    "https://images.unsplash.com/photo-1576121267872-1c0c5c24e7f0?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMGpheXxlbnwwfHwwfHx8MA%3D%3D"
 ));
 
 animalDatabase.push(new Animal(
@@ -344,7 +344,7 @@ animalDatabase.push(new Animal(
     "Forests, deserts, and urban areas of the Americas",
     "Carnivore - small mammals, birds, reptiles",
     "Great horned owls are powerful nocturnal hunters with exceptional vision and hearing. Their signature 'horns' are actually tufts of feathers. They can exert a grip strength of 28 pounds and are one of the few predators of skunks.",
-    "https://images.unsplash.com/photo-1572266889765-992b3a2b4b8d?w=400"
+    "https://plus.unsplash.com/premium_photo-1661833889500-c39c8644f1a3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ));
 
 animalDatabase.push(new Animal(
@@ -360,7 +360,7 @@ animalDatabase.push(new Animal(
     "North Atlantic coasts and islands",
     "Carnivore - small fish, especially sand eels",
     "Atlantic puffins are seabirds with colorful beaks that brighten during breeding season. They are excellent swimmers, using their wings to 'fly' underwater at speeds up to 55 mph. They can carry up to 60 small fish in their beaks at once.",
-    "https://images.unsplash.com/photo-1612466457490-2c26d0da3be2?w=400"
+    "https://plus.unsplash.com/premium_photo-1667955010210-6b6f2eeb5be9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHVmZmlufGVufDB8fDB8fHww"
 ));
 
 animalDatabase.push(new Animal(
@@ -376,7 +376,7 @@ animalDatabase.push(new Animal(
     "Caribbean, northern South America, Galapagos",
     "Filter feeder - algae, small crustaceans, mollusks",
     "Flamingos get their pink color from carotenoid pigments in their diet. They feed with their heads upside down, using their uniquely shaped beaks to filter food from water. They can stand on one leg for hours to conserve body heat.",
-    "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400"
+    "https://images.unsplash.com/photo-1539418561314-565804e349c0?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmxhbWluZ298ZW58MHx8MHx8fDA%3D"
 ));
 
 animalDatabase.push(new Animal(
@@ -392,7 +392,7 @@ animalDatabase.push(new Animal(
     "Forests of India and Southeast Asia",
     "Carnivore - primarily other snakes",
     "The king cobra is the world's longest venomous snake, capable of growing up to 18 feet. Despite their fearsome reputation, they are generally shy and avoid humans. Females are one of the few snakes that build nests and guard their eggs.",
-    "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?w=400"
+    "https://images.unsplash.com/photo-1727897615247-004493410607?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8a2luZyUyMGNvYnJhfGVufDB8fDB8fHww"
 ));
 
 animalDatabase.push(new Animal(
@@ -408,7 +408,7 @@ animalDatabase.push(new Animal(
     "Freshwater environments in southeastern United States",
     "Carnivore - fish, birds, mammals, turtles",
     "American alligators are apex predators that play a crucial role in their ecosystems. They can live 30-50 years in the wild and their bite force is one of the strongest in the animal kingdom at over 2,000 pounds per square inch.",
-    "https://images.unsplash.com/photo-1551191916-3a676b9e5a85?w=400"
+    "https://images.unsplash.com/photo-1595433409683-943ded8e7b1d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWxsaWdhdG9yfGVufDB8fDB8fHww"
 ));
 
 animalDatabase.push(new Animal(
@@ -424,7 +424,7 @@ animalDatabase.push(new Animal(
     "Indonesian islands (Komodo, Rinca, Flores, Gili Motang)",
     "Carnivore - deer, pigs, water buffalo, smaller dragons",
     "The Komodo dragon is the largest living lizard, growing up to 10 feet long. They have venomous bites and can detect carrion from up to 6 miles away. Despite their size, they can run up to 13 mph in short bursts.",
-    "https://images.unsplash.com/photo-1604263439201-171fb8c0fddc?w=400"
+    "https://plus.unsplash.com/premium_photo-1661898166024-7d141970335b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8a29tb2RvJTIwZHJhZ29ufGVufDB8fDB8fHww"
 ));
 
 animalDatabase.push(new Animal(
@@ -440,7 +440,7 @@ animalDatabase.push(new Animal(
     "All tropical and temperate oceans",
     "Carnivore - primarily jellyfish",
     "The leatherback is the largest sea turtle and can weigh up to 2,000 pounds. Unlike other sea turtles, they lack a hard shell and instead have a leathery skin. They can dive to depths of 4,000 feet and regulate their body temperature.",
-    "https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=400"
+    "https://images.unsplash.com/photo-1509747129352-c4244f0b9bf9?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGVhdGhlcmJhY2slMjB0dXJ0bGV8ZW58MHx8MHx8fDA%3D"
 ));
 
 animalDatabase.push(new Animal(
@@ -456,7 +456,7 @@ animalDatabase.push(new Animal(
     "Rainforests of Central and South America",
     "Herbivore - leaves, flowers, and fruit",
     "Green iguanas are large, arboreal lizards that can grow up to 6 feet long including their tail. They are excellent swimmers and can stay submerged for up to 30 minutes. Males develop large dewlaps and head crests during breeding season.",
-    "https://images.unsplash.com/photo-1604069722739-7d703d51ace6?w=400"
+    "https://images.unsplash.com/photo-1610604695612-ae85d1a6e54e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjBpZ3VhbmF8ZW58MHx8MHx8fDA%3D"
 ));
 
 animalDatabase.push(new Animal(
@@ -472,7 +472,7 @@ animalDatabase.push(new Animal(
     "Rainforests of Central and South America",
     "Carnivore - ants, termites, small insects",
     "Poison dart frogs are brilliantly colored to warn predators of their toxicity. Indigenous people used their toxic skin secretions to poison blow darts. In captivity, they lose their toxicity because it comes from their wild diet.",
-    "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=400"
+    "https://plus.unsplash.com/premium_photo-1661895407372-fa9ae815546e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGFydCUyMGZyb2d8ZW58MHx8MHx8fDA%3D"
 ));
 
 animalDatabase.push(new Animal(
@@ -488,7 +488,7 @@ animalDatabase.push(new Animal(
     "Lakes, ponds, and slow streams of North America",
     "Carnivore - insects, fish, small birds, snakes, other frogs",
     "The American bullfrog is the largest frog in North America, with some reaching 8 inches in length. Males produce a deep 'jug-o-rum' call. They are voracious predators and will eat almost anything they can swallow.",
-    "https://images.unsplash.com/photo-1603909042729-acae723a8fa9?w=400"
+    "https://images.unsplash.com/photo-1596913499156-73aeef8d1d67?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YnVsbGZyb2d8ZW58MHx8MHx8fDA%3D"
 ));
 
 animalDatabase.push(new Animal(
@@ -504,7 +504,7 @@ animalDatabase.push(new Animal(
     "Lake Xochimilco, Mexico City",
     "Carnivore - worms, insects, small fish",
     "Axolotls are unique salamanders that retain their larval features throughout life, including external gills. They have remarkable regenerative abilities and can regrow entire limbs, parts of their brain, and heart. Critically endangered in the wild.",
-    "https://images.unsplash.com/photo-1619108189273-eb147fe4e23f?w=400"
+    "https://images.unsplash.com/photo-1712874364529-2d17f6111bb1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXhvbG90bHxlbnwwfHwwfHx8MA%3D%3D"
 ));
 
 animalDatabase.push(new Animal(
@@ -537,7 +537,7 @@ animalDatabase.push(new Animal(
     "Coral reefs of the Pacific and Indian Oceans",
     "Omnivore - algae, zooplankton, small crustaceans",
     "Clownfish live in a symbiotic relationship with sea anemones, whose stinging tentacles protect them from predators. They are immune to anemone stings. All clownfish are born male, and the dominant male can change into a female.",
-    "https://images.unsplash.com/photo-1520990556027-8c4ee76ed0a1?w=400"
+    "https://images.unsplash.com/photo-1596414086775-3e321ab08f36?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2xvd24lMjBmaXNofGVufDB8fDB8fHww"
 ));
 
 
@@ -554,7 +554,7 @@ animalDatabase.push(new Animal(
     "Tropical and subtropical ocean waters worldwide",
     "Filter feeder - zooplankton, small fish",
     "Giant manta rays are the largest rays in the world, with wingspans up to 29 feet. Despite their size, they feed on tiny organisms by filter feeding. They are highly intelligent with the largest brain-to-body ratio of any fish.",
-    "https://images.unsplash.com/photo-1591025207163-942350e47db2?w=400"
+    "https://images.unsplash.com/photo-1618265909156-0507770ef0d0?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFudGElMjByYXl8ZW58MHx8MHx8fDA%3D"
 ));
 
 
@@ -571,7 +571,7 @@ animalDatabase.push(new Animal(
     "Indo-Pacific reefs (invasive in Atlantic)",
     "Carnivore - small fish and invertebrates",
     "Lionfish have venomous spines that can cause painful stings. They are voracious predators that can consume prey up to half their own size. Native to the Indo-Pacific, they have become invasive in the Atlantic, threatening native species.",
-    "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400"
+    "https://plus.unsplash.com/premium_photo-1684933348916-eb63726b6557?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGlvbiUyMGZpc2h8ZW58MHx8MHx8fDA%3D"
 ));
 // Testing
 console.log("Total animals:", animalDatabase.length);
