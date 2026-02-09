@@ -20,7 +20,7 @@ https://github.com/BanjoKito/zoology-site.git
 ```
 
 # Live Link
-[Git](gh-pages link)
+https://banjokito.github.io/zoology-site/
 
 ## Technologies used
 HTML
