@@ -15,7 +15,7 @@ Git
 
 ### Installation instruction
 ```
-Git clone https://github.com/hamida-mstafa/Triangle-tracker.git
+https://github.com/BanjoKito/zoology-site.git
 
 ```
 
@@ -29,7 +29,7 @@ Github
 Javascript
 
 ## Support and contact details
-github.com/hamida-mstafa
+https://github.com/BanjoKito
 
 ### License
 The content of this site is licensed under the MIT license
