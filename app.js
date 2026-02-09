@@ -48,3 +48,50 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+// Now we do the search functionality
+function searchAnimals() {
+    const searchInput = document.getElementById('searchInput');
+    const searchTerm = searchInput.value.toLowerCase();
+    
+    const filtered = animalDatabase.filter(function(animal) {
+        return animal.name.toLowerCase().includes(searchTerm) ||
+               animal.species.toLowerCase().includes(searchTerm);
+    });
+    
+    displayAnimalCards(filtered);
+}
+document.addEventListener('DOMContentLoaded', function() {
+    // Display animals
+    displayAnimalCards(animalDatabase);
+    
+    // Search button
+    const searchBtn = document.getElementById('searchBtn');
+    searchBtn.addEventListener('click', searchAnimals);
+    
+    // Search on Enter key
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('keyup', function(event) {
+        if (event.key === 'Enter') {
+            searchAnimals();
+        }
+    });
+});
+// Functioon to filter by class
+function filterByClass() {
+    const classFilter = document.getElementById('classFilter');
+    const selectedClass = classFilter.value;
+    
+    if (selectedClass === 'all') {
+        displayAnimalCards(animalDatabase);
+        return;
+    }
+    const filtered = animalDatabase.filter(function(animal) {
+        return animal.classification.class === selectedClass;
+    });
+    
+    displayAnimalCards(filtered);
+}
+document.addEventListener('DOMContentLoaded', function() {
+    const classFilter = document.getElementById('classFilter');
+    classFilter.addEventListener('change', filterByClass);
+});

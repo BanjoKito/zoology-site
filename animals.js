@@ -219,6 +219,360 @@ animalDatabase.push(new Animal(
     "https://images.unsplash.com/photo-1551986782-d0169b3f8fa7?w=400"
 ));
 
+animalDatabase.push(new Animal(
+    "Cheetah",
+    "Acinonyx jubatus",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Mammalia",
+        order: "Carnivora",
+        family: "Felidae"
+    },
+    "Grasslands and savannas of Africa",
+    "Carnivore - primarily small to medium-sized ungulates",
+    "The cheetah is the fastest land animal, capable of reaching speeds up to 70 mph. Unlike other big cats, cheetahs cannot roar but can purr. They have distinctive black tear marks running from their eyes to their mouths.",
+    "https://images.unsplash.com/photo-1549480017-d76466a4b7e8?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Bottlenose Dolphin",
+    "Tursiops truncatus",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Mammalia",
+        order: "Cetacea",
+        family: "Delphinidae"
+    },
+    "Temperate and tropical oceans worldwide",
+    "Carnivore - fish, squid, and crustaceans",
+    "Bottlenose dolphins are highly intelligent marine mammals known for their playful behavior and complex social structures. They use echolocation to navigate and hunt, and can recognize themselves in mirrors.",
+    "https://images.unsplash.com/photo-1607153333879-c174d265f1d2?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Giant Panda",
+    "Ailuropoda melanoleuca",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Mammalia",
+        order: "Carnivora",
+        family: "Ursidae"
+    },
+    "Mountain forests of central China",
+    "Herbivore - primarily bamboo (99% of diet)",
+    "Despite being classified in the order Carnivora, giant pandas are almost exclusively herbivorous. They spend 12-16 hours a day eating bamboo and must consume 26-84 pounds daily to meet their energy needs.",
+    "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Polar Bear",
+    "Ursus maritimus",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Mammalia",
+        order: "Carnivora",
+        family: "Ursidae"
+    },
+    "Arctic ice and surrounding waters",
+    "Carnivore - primarily seals",
+    "Polar bears are the largest land carnivores and are perfectly adapted to life in the Arctic. Their white fur provides camouflage, and they have black skin underneath to absorb heat. They are excellent swimmers and can swim for days.",
+    "https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Red Kangaroo",
+    "Macropus rufus",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Mammalia",
+        order: "Diprotodontia",
+        family: "Macropodidae"
+    },
+    "Arid and semi-arid regions of Australia",
+    "Herbivore - grasses and shrubs",
+    "The red kangaroo is the largest marsupial in the world. Males can reach speeds of 35 mph and leap up to 30 feet in a single bound. Females have a permanent pouch where their young (joeys) develop.",
+    "https://images.unsplash.com/photo-1582192730841-37843b2d3d3d?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Peregrine Falcon",
+    "Falco peregrinus",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Aves",
+        order: "Falconiformes",
+        family: "Falconidae"
+    },
+    "Worldwide except Antarctica",
+    "Carnivore - primarily other birds",
+    "The peregrine falcon is the fastest animal on Earth, reaching speeds over 240 mph during hunting dives called stoops. They have been recorded on every continent except Antarctica and have adapted to urban environments.",
+    "https://images.unsplash.com/photo-1611409181551-0ca8f6f31b98?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Blue Jay",
+    "Cyanocitta cristata",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Aves",
+        order: "Passeriformes",
+        family: "Corvidae"
+    },
+    "Forests of eastern North America",
+    "Omnivore - nuts, seeds, insects, small vertebrates",
+    "Blue jays are intelligent and adaptable birds known for their striking blue plumage and loud calls. They are excellent mimics and can imitate the calls of hawks. They play an important role in forest regeneration by caching acorns.",
+    "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Great Horned Owl",
+    "Bubo virginianus",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Aves",
+        order: "Strigiformes",
+        family: "Strigidae"
+    },
+    "Forests, deserts, and urban areas of the Americas",
+    "Carnivore - small mammals, birds, reptiles",
+    "Great horned owls are powerful nocturnal hunters with exceptional vision and hearing. Their signature 'horns' are actually tufts of feathers. They can exert a grip strength of 28 pounds and are one of the few predators of skunks.",
+    "https://images.unsplash.com/photo-1572266889765-992b3a2b4b8d?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Atlantic Puffin",
+    "Fratercula arctica",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Aves",
+        order: "Charadriiformes",
+        family: "Alcidae"
+    },
+    "North Atlantic coasts and islands",
+    "Carnivore - small fish, especially sand eels",
+    "Atlantic puffins are seabirds with colorful beaks that brighten during breeding season. They are excellent swimmers, using their wings to 'fly' underwater at speeds up to 55 mph. They can carry up to 60 small fish in their beaks at once.",
+    "https://images.unsplash.com/photo-1612466457490-2c26d0da3be2?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "American Flamingo",
+    "Phoenicopterus ruber",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Aves",
+        order: "Phoenicopteriformes",
+        family: "Phoenicopteridae"
+    },
+    "Caribbean, northern South America, Galapagos",
+    "Filter feeder - algae, small crustaceans, mollusks",
+    "Flamingos get their pink color from carotenoid pigments in their diet. They feed with their heads upside down, using their uniquely shaped beaks to filter food from water. They can stand on one leg for hours to conserve body heat.",
+    "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "King Cobra",
+    "Ophiophagus hannah",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Reptilia",
+        order: "Squamata",
+        family: "Elapidae"
+    },
+    "Forests of India and Southeast Asia",
+    "Carnivore - primarily other snakes",
+    "The king cobra is the world's longest venomous snake, capable of growing up to 18 feet. Despite their fearsome reputation, they are generally shy and avoid humans. Females are one of the few snakes that build nests and guard their eggs.",
+    "https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "American Alligator",
+    "Alligator mississippiensis",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Reptilia",
+        order: "Crocodilia",
+        family: "Alligatoridae"
+    },
+    "Freshwater environments in southeastern United States",
+    "Carnivore - fish, birds, mammals, turtles",
+    "American alligators are apex predators that play a crucial role in their ecosystems. They can live 30-50 years in the wild and their bite force is one of the strongest in the animal kingdom at over 2,000 pounds per square inch.",
+    "https://images.unsplash.com/photo-1551191916-3a676b9e5a85?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Komodo Dragon",
+    "Varanus komodoensis",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Reptilia",
+        order: "Squamata",
+        family: "Varanidae"
+    },
+    "Indonesian islands (Komodo, Rinca, Flores, Gili Motang)",
+    "Carnivore - deer, pigs, water buffalo, smaller dragons",
+    "The Komodo dragon is the largest living lizard, growing up to 10 feet long. They have venomous bites and can detect carrion from up to 6 miles away. Despite their size, they can run up to 13 mph in short bursts.",
+    "https://images.unsplash.com/photo-1604263439201-171fb8c0fddc?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Leatherback Sea Turtle",
+    "Dermochelys coriacea",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Reptilia",
+        order: "Testudines",
+        family: "Dermochelyidae"
+    },
+    "All tropical and temperate oceans",
+    "Carnivore - primarily jellyfish",
+    "The leatherback is the largest sea turtle and can weigh up to 2,000 pounds. Unlike other sea turtles, they lack a hard shell and instead have a leathery skin. They can dive to depths of 4,000 feet and regulate their body temperature.",
+    "https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Green Iguana",
+    "Iguana iguana",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Reptilia",
+        order: "Squamata",
+        family: "Iguanidae"
+    },
+    "Rainforests of Central and South America",
+    "Herbivore - leaves, flowers, and fruit",
+    "Green iguanas are large, arboreal lizards that can grow up to 6 feet long including their tail. They are excellent swimmers and can stay submerged for up to 30 minutes. Males develop large dewlaps and head crests during breeding season.",
+    "https://images.unsplash.com/photo-1604069722739-7d703d51ace6?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Poison Dart Frog",
+    "Dendrobates tinctorius",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Amphibia",
+        order: "Anura",
+        family: "Dendrobatidae"
+    },
+    "Rainforests of Central and South America",
+    "Carnivore - ants, termites, small insects",
+    "Poison dart frogs are brilliantly colored to warn predators of their toxicity. Indigenous people used their toxic skin secretions to poison blow darts. In captivity, they lose their toxicity because it comes from their wild diet.",
+    "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "American Bullfrog",
+    "Lithobates catesbeianus",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Amphibia",
+        order: "Anura",
+        family: "Ranidae"
+    },
+    "Lakes, ponds, and slow streams of North America",
+    "Carnivore - insects, fish, small birds, snakes, other frogs",
+    "The American bullfrog is the largest frog in North America, with some reaching 8 inches in length. Males produce a deep 'jug-o-rum' call. They are voracious predators and will eat almost anything they can swallow.",
+    "https://images.unsplash.com/photo-1603909042729-acae723a8fa9?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Axolotl",
+    "Ambystoma mexicanum",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Amphibia",
+        order: "Urodela",
+        family: "Ambystomatidae"
+    },
+    "Lake Xochimilco, Mexico City",
+    "Carnivore - worms, insects, small fish",
+    "Axolotls are unique salamanders that retain their larval features throughout life, including external gills. They have remarkable regenerative abilities and can regrow entire limbs, parts of their brain, and heart. Critically endangered in the wild.",
+    "https://images.unsplash.com/photo-1619108189273-eb147fe4e23f?w=400"
+));
+
+animalDatabase.push(new Animal(
+    "Great White Shark",
+    "Carcharodon carcharias",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Chondrichthyes",
+        order: "Lamniformes",
+        family: "Lamnidae"
+    },
+    "Coastal surface waters of all major oceans",
+    "Carnivore - fish, rays, seals, sea lions, dolphins",
+    "Great white sharks are apex predators with up to 300 serrated teeth arranged in rows. They can detect a single drop of blood in 25 gallons of water and can sense electrical fields produced by other animals. They can live 70+ years.",
+    "https://images.unsplash.com/photo-1560275619-4662e36fa65c?w=400"
+));
+
+
+animalDatabase.push(new Animal(
+    "Clownfish",
+    "Amphiprion ocellaris",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Actinopterygii",
+        order: "Perciformes",
+        family: "Pomacentridae"
+    },
+    "Coral reefs of the Pacific and Indian Oceans",
+    "Omnivore - algae, zooplankton, small crustaceans",
+    "Clownfish live in a symbiotic relationship with sea anemones, whose stinging tentacles protect them from predators. They are immune to anemone stings. All clownfish are born male, and the dominant male can change into a female.",
+    "https://images.unsplash.com/photo-1520990556027-8c4ee76ed0a1?w=400"
+));
+
+
+animalDatabase.push(new Animal(
+    "Giant Manta Ray",
+    "Mobula birostris",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Chondrichthyes",
+        order: "Myliobatiformes",
+        family: "Mobulidae"
+    },
+    "Tropical and subtropical ocean waters worldwide",
+    "Filter feeder - zooplankton, small fish",
+    "Giant manta rays are the largest rays in the world, with wingspans up to 29 feet. Despite their size, they feed on tiny organisms by filter feeding. They are highly intelligent with the largest brain-to-body ratio of any fish.",
+    "https://images.unsplash.com/photo-1591025207163-942350e47db2?w=400"
+));
+
+
+animalDatabase.push(new Animal(
+    "Red Lionfish",
+    "Pterois volitans",
+    {
+        kingdom: "Animalia",
+        phylum: "Chordata",
+        class: "Actinopterygii",
+        order: "Scorpaeniformes",
+        family: "Scorpaenidae"
+    },
+    "Indo-Pacific reefs (invasive in Atlantic)",
+    "Carnivore - small fish and invertebrates",
+    "Lionfish have venomous spines that can cause painful stings. They are voracious predators that can consume prey up to half their own size. Native to the Indo-Pacific, they have become invasive in the Atlantic, threatening native species.",
+    "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400"
+));
 // Testing
 console.log("Total animals:", animalDatabase.length);
 console.log(animalDatabase[0].name);
