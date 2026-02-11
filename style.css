@@ -333,3 +333,124 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* Tree styles */
+.tree {
+    text-align: center;
+}
+
+.tree-level {
+    margin: 2rem 0;
+}
+
+.tree-node {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tree-node:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.kingdom {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.phylum {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.class-grid,
+.order-grid,
+.family-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.class-node {
+    cursor: pointer;
+    border: 3px solid #3498db;
+}
+
+.order-node {
+    cursor: pointer;
+    border: 3px solid #27ae60;
+}
+
+.family-node {
+    cursor: pointer;
+    border: 3px solid #e74c3c;
+}
+
+.explore-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-btn {
+    padding: 0.8rem 1.5rem;
+    background: #95a5a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.back-btn:hover {
+    background: #7f8c8d;
+}
+
+.breadcrumb {
+    background: #ecf0f1;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+
+.animal-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.animal-item {
+    display: flex;
+    gap: 1.5rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.animal-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.animal-info h4 {
+    margin-bottom: 0.5rem;
+}
+
+.scientific {
+    color: #7f8c8d;
+    font-style: italic;
+}
