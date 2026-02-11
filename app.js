@@ -95,3 +95,4 @@ document.addEventListener('DOMContentLoaded', function() {
     const classFilter = document.getElementById('classFilter');
     classFilter.addEventListener('change', filterByClass);
 });
+
