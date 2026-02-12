@@ -295,6 +295,13 @@ h3 {
     overflow-y: auto;
     position: relative;
 }
+.animal-detail img {
+    max-width: 100%;      
+    height: auto;          
+    display: block;        
+    border-radius: 8px;    
+    object-fit: cover;     
+}
 
 .close {
     position: absolute;
