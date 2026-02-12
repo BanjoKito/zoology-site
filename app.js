@@ -96,3 +96,58 @@ document.addEventListener('DOMContentLoaded', function() {
     classFilter.addEventListener('change', filterByClass);
 });
 
+// Save data to local storage
+
+// LocalStorage helpers
+function saveToLocalStorage(key, value) {
+    try {
+        localStorage.setItem(key, JSON.stringify(value));
+    } catch (e) {
+        console.error('Failed to save to localStorage', e);
+    }
+}
+
+function loadFromLocalStorage(key, defaultValue = null) {
+    try {
+        const v = localStorage.getItem(key);
+        return v ? JSON.parse(v) : defaultValue;
+    } catch (e) {
+        console.error('Failed to load from localStorage', e);
+        return defaultValue;
+    }
+}
+
+function removeFromLocalStorage(key) {
+    try {
+        localStorage.removeItem(key);
+    } catch (e) {
+        console.error('Failed to remove from localStorage', e);
+    }
+}
+
+// Example: persist `animalDatabase` (keeps it as an array if present)
+const STORAGE_KEY_ANIMALS = 'animalDatabase';
+
+function saveAnimals() {
+    if (typeof localStorage === 'undefined') return;
+    saveToLocalStorage(STORAGE_KEY_ANIMALS, window.animalDatabase || []);
+}
+
+function loadAnimals() {
+    if (typeof localStorage === 'undefined') return;
+    const data = loadFromLocalStorage(STORAGE_KEY_ANIMALS, null);
+    if (Array.isArray(data)) {
+        if (Array.isArray(window.animalDatabase)) {
+            window.animalDatabase.length = 0;
+            window.animalDatabase.push(...data);
+        } else {
+            window.animalDatabase = data;
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    loadAnimals();
+    // Save when the page is unloaded
+    window.addEventListener('beforeunload', saveAnimals);
+});
